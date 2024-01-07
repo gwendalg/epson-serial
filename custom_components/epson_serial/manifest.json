@@ -1,0 +1,11 @@
+{
+  "codeowners": ["@gwendalg"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/gwendalg/epson-serial",
+  "domain": "epson_serial",
+  "iot_class": "local_polling",
+  "name": "Epson Serial",
+  "requirements": [],
+  "version": "1.0.0"
+}
