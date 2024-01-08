@@ -1,7 +1,7 @@
 """Support for Epson Projectors.
 
 For more details about this platform, please refer to the documentation at
-https://home-assistant.io/components/media_player.epson/
+https://github.com/gwendalg/epson-serial/blob/main/README.md
 """
 import io
 import logging
