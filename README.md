@@ -1,11 +1,13 @@
 # Epson Serial for Home Assistant
 
-Custom Epson Serial component written in Python3 for Home Assistant. Controls older, serial based, [Epson] projector. Newer, IP based, projectors are controlled with [Epson](https://www.home-assistant.io/integrations/epson/) plugin.
+Custom Epson Serial component written in Python3 for Home Assistant. Controls older, serial based, [Epson](https://epson.com/Support/Projectors/sh/s3) projector. Newer, IP based, projectors are controlled with [Epson](https://www.home-assistant.io/integrations/epson/) plugin.
 
 ## Supported features
 
 - turn on/off
 - set input
+
+Protocol [ESC/VP21](https://epson.com/Support/wa00572) code TW3600 is used.
 
 ## Supported models
 
