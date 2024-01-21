@@ -9,7 +9,7 @@ Custom Epson Serial component written in Python3 for Home Assistant. Controls ol
 
 ## Supported models
 
-- [8350](https://epson.com/For-Home/Projectors/Home-Cinema/PowerLite-Home-Cinema-8350-1080p-3LCD-Projector/p/V11H373120)
+- [Epson PowerLite Home Cinema 8350](https://epson.com/For-Home/Projectors/Home-Cinema/PowerLite-Home-Cinema-8350-1080p-3LCD-Projector/p/V11H373120)
 
 [Anthem]: https://www.anthemav.com/
 
