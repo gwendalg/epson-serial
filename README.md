@@ -1,4 +1,4 @@
-# Anthem Serial for Home Assistant
+# Epson Serial for Home Assistant
 
 Custom Epson Serial component written in Python3 for Home Assistant. Controls older, serial based, [Epson] projector. Newer, IP based, projectors are controlled with [Epson](https://www.home-assistant.io/integrations/epson/) plugin.
 
