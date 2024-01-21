@@ -2,7 +2,10 @@
 
 Custom Epson Serial component written in Python3 for Home Assistant. Controls older, serial based, [Epson] projector. Newer, IP based, projectors are controlled with [Epson](https://www.home-assistant.io/integrations/epson/) plugin.
 
-Input selection and power control are supported.
+## Supported features
+
+- turn on/off
+- set input
 
 ## Supported models
 
@@ -19,7 +22,7 @@ Input selection and power control are supported.
 ENV{ID_BUS}=="usb", ENV{ID_PATH_TAG}=="platform-3f980000_usb-usb-0_1_2_6_1_0", SYMLINK+="projector"
 ```
 
-A `/dev/projector` link is created by udev. Then the home assistant device section, add:
+   A `/dev/projector` link is created by udev. Then the home assistant device section, add:
 
 ```yaml
 - name: projector
@@ -27,4 +30,4 @@ A `/dev/projector` link is created by udev. Then the home assistant device secti
   port: /dev/projector
 ```
 
-A `media_player.avr` object will be available for configuration.
+   A `media_player.projector` object will be available for configuration.
